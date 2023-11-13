@@ -31,8 +31,6 @@ const Button={
 
 
     animate:{
-
-
         scale:1.1,
     }
  
@@ -51,6 +49,7 @@ const imagechange={
         transition:{
             delay:1,
             duration:1,
+            ease:"easeInOut"
         }
     }
 

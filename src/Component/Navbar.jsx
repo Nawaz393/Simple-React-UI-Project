@@ -1,7 +1,14 @@
 import React from 'react';
 import {motion} from 'framer-motion';
 import { Button } from './Anime';
+import {AiOutlineShoppingCart} from  'react-icons/ai'
+import { Badge } from '@mui/material';
+import { useMyContext } from '../../context/CartProvider';
+import CartDialog from './CartDialog';
 const Navbar = () => {
+    const {cart}=useMyContext()
+
+    
     return (
         <nav className=' flex h-14 bg-zinc-800 items-center px-4 '>
                 <div>
@@ -10,13 +17,8 @@ const Navbar = () => {
                     <span className='text-green-500  text-2xl font-light tracking-normal '>market</span>
                     </a>
                 </div>
-            <div className='ml-auto'>
-                <motion.button 
-                variants={Button}
-                whileHover='animate'
-                
-                className='bg-green-500  text-white font-quick px-5 py-1 rounded-md hover:bg-green-600 tracking-tight'>Buy now</motion.button>
-            </div>
+                <div  className="ml-auto mr-5">  <CartDialog/></div>
+        
         </nav>
     );
 }
