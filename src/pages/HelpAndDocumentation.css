@@ -1,0 +1,48 @@
+/* HelpAndDocumentation.css */
+
+.help-page {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+h2 {
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.accordion {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-title {
+    padding: 15px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    transition: background-color 0.3s;
+}
+
+.accordion-title:hover {
+    background-color: #e7e7e7;
+}
+
+.accordion-content {
+    padding: 15px;
+    background-color: white;
+}

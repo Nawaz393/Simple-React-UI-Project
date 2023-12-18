@@ -11,7 +11,7 @@ import { Badge } from '@mui/material';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import CartItem from './CartItem';
 export default function CartDialog() {
-  const [open, setOpen] = React.useState(false);
+const [open, setOpen] = React.useState(false);
 
 
   const {cart} =useMyContext();

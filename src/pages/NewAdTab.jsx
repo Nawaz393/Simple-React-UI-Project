@@ -223,6 +223,7 @@ toast.success("form submitted successfully")
                         name="name"
                         id="name"
                         value={form.name}
+                        placeholder="Brand new Sony Camera"
                         onChange={handleChange}
                         min={3}
                         required
@@ -242,6 +243,7 @@ toast.success("form submitted successfully")
                         name="tagline"
                         value={form.tagline}
                         required
+                        placeholder="Takes High Quality Pictures"
                         onChange={handleChange}
                         min={10}
                         className="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -258,6 +260,7 @@ toast.success("form submitted successfully")
                         type="text"
                         name="price"
                         id="price"
+                        placeholder="100$"
                         onChange={handleChange}
                         value={form.price}
                         required
@@ -299,6 +302,7 @@ toast.success("form submitted successfully")
                       <textarea
                         type="text"
                         name="detail"
+                        placeholder="One month used, with 32 gb memory card etc"
                         value={form.detail}
                         onChange={handleChange}
                         min={15}
@@ -318,6 +322,7 @@ toast.success("form submitted successfully")
                         name="description"
                         value={form.description}
                         onChange={handleChange}
+                        placeholder="6 months warranty left ...."
                         min={15}
                         required
                         className="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -383,6 +388,7 @@ toast.success("form submitted successfully")
                         name="email"
                         id="email"
                         value={form.email}
+                        placeholder="mohdnawaz6393@gmail.com"
                         onChange={handleChange}
                         required
                         className="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -398,6 +404,7 @@ toast.success("form submitted successfully")
                       <input
                         type="text"
                         name="whatsapp"
+                        placeholder="+923483339720"
                         value={form.whatsapp}
                         onChange={handleChange}
                         required
@@ -415,6 +422,7 @@ toast.success("form submitted successfully")
                       <input
                         onChange={handleChange}
                         value={form.phone}
+                        placeholder="03456684481"
                         type="number"
                         name="phone"
                         required
@@ -432,6 +440,7 @@ toast.success("form submitted successfully")
                         type="text"
                         name="website"
                         value={form.website}
+                        placeholder="https://www.m-nawa-z-khan.rocks"
                         onChange={handleChange}
                         min={10}
                         required
@@ -450,6 +459,7 @@ toast.success("form submitted successfully")
                         onChange={handleChange}
                         name="address"
                         value={form.address}
+                        placeholder="village totalai distt buner"
                         required
                         min={10}
                         className="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
